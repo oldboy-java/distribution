@@ -20,6 +20,7 @@ public class OrderService implements Runnable {
 			// synchronized (this) {
 			// 模拟用户生成订单号
 			getNumber();
+			//}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
